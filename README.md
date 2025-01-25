@@ -76,11 +76,5 @@ O fluxo de dados e as visualizações do projeto dependem do LangGraph. Certifiq
 
 - Certifique-se de estar usando uma versão compatível do Python (recomenda-se Python 3.8 ou superior).
 - O projeto utiliza modelos avançados. Portanto, verifique os requisitos mínimos de hardware ao trabalhar com o Ollama.
-- Para dúvidas ou problemas, consulte o repositório original ou entre em contato com a comunidade LangChain.
 
 ---
-
-## Licença
-
-Este projeto segue a mesma licença do tutorial original. Consulte o [repositório oficial](https://github.com/langchain-ai/ollama-deep-researcher/) para mais detalhes.
-
