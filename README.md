@@ -55,7 +55,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
 ### Passo 4: Configuração do LangGraph
 
-1. Cadastre-se no [LangGraph](https://langgraph.com/).
+1. Cadastre-se no [LangGraph](https://www.langchain.com/langgraph).
 2. Gere uma **API Key** e configure as seguintes variáveis de ambiente no seu projeto:
 
 ```python
