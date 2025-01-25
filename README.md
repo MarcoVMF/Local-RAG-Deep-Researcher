@@ -72,6 +72,21 @@ O fluxo de dados e as visualizações do projeto dependem do LangGraph. Certifiq
 
 ---
 
+### Passo 6: Ajuste Necessário
+
+Para que o código funcione corretamente, é necessário alterar a última célula do script principal. Certifique-se de configurar os inputs conforme desejado, seguindo o exemplo abaixo:
+
+```python
+inputs = {"topic": "How does Chain of Thoughts works?"}
+
+for event in graph.stream(inputs, stream_mode="values"):
+    print(event)
+```
+
+Essa célula é responsável por definir o tópico de pesquisa e processar os resultados obtidos pelo LangGraph.
+
+---
+
 ## Observações
 
 - Certifique-se de estar usando uma versão compatível do Python (recomenda-se Python 3.8 ou superior).
